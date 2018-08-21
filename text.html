@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery.js"></script>
+</head>
+<body>
+    <p>收到回复</p>
+   <button id="d1">点我跳转1</button>
+   <button id="d2">点我跳转2</button>
+<div class="box"></div>
+    <script>
+        $(function () {
+            $("#d1").click(function () { 
+              $(".box").load('page1.html')
+                
+            });
+            
+        });
+    
+    
+    
+    </script>
+</body>
+</html>

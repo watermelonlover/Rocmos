@@ -1,0 +1,394 @@
+header{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    font-size: 14px;
+    z-index: 1000;
+
+}
+header .RM-logo{
+    width: 150px;
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 70px;
+    float: left;
+    line-height: 70px;
+    text-align: center;
+}
+header .RM-nav li{
+    float: left;
+}
+header .RM-nav li a{
+    display: inline-block;
+    padding: 0 35px;
+    line-height: 70px;
+    text-align: center;
+    color: #999;
+
+}
+header .RM-nav .active a{
+    color: #fff;
+}
+header .RM-nav li a:hover{
+    color: #fff;
+}
+header .RM-nav li div{
+    display: none;
+    z-index: 999;
+    background-color: #333;
+    text-align: left;
+}
+header .RM-nav li div a{
+    text-align: left;
+    display: block;
+    padding:0 18px;
+    height: 30px;
+    line-height: 30px;
+  
+}
+header .RM-nav li div a:hover{
+  color:#11dab7;
+
+}
+header .RM-btn{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+header .RM-btn a{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border:1px solid #11dab7;
+    border-radius: 5px;
+    
+   
+}
+header .RM-btn a+a{
+    margin-left: 20px;
+}
+header .RM-btn a{
+    color: #11dab7;
+}
+/* 二次创建平台 */
+.RM-table{
+    width: 100%;
+    height: 620px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    background-color: #333;
+    border-top: 1px solid #fff;
+}
+.RM-table .RM-table-top{
+    width: 100%;
+    height: 570px;
+    padding-left: 70px;
+    padding-top: 120px;
+ 
+}
+.RM-table .RM-table-top h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+.RM-table .RM-table-top p{
+    font-size: 24px;
+    margin-top: 20px;
+    color: #999;
+}
+.RM-table .RM-table-top button{
+    width: 280px;
+    height: 60px;
+    background-color: #11dab7;
+    color:#fff;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+.RM-table .RM-table-news{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #999;
+    overflow: hidden;
+}
+.RM-table .RM-table-news ul li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+   
+}
+.RM-table .RM-table-news ul li span{
+    color:#f1f1f1;
+    font-size: 14px;
+
+}
+.RM-table .RM-table-news ul li span:last-child{
+    color: #11dab7;
+}
+/* 功能介绍 */
+.RM-function,
+.RM-example,
+.RM-location,
+.RM-customer,
+.RM-learn
+{
+    width: 100%;
+    height: 840px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.RM-function h2,
+.RM-example h2,
+.RM-location h2,
+.RM-customer h2,
+.RM-learn h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+
+}
+.RM-function h3{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.RM-function a,
+.RM-example a,
+.RM-location a,
+.RM-customer a,
+.RM-learn a{
+    color:#11dab7;
+    display: block; 
+    margin-top: 12px;
+    margin-bottom: 80px;
+}
+.RM-function p{
+    text-align: left;
+    padding-left: 70px;
+}
+.RM-function img{
+    display:inline-block;
+    width: 180px;
+    height:180px;
+    border:1px solid red;
+}
+/* 示例文件 */
+.RM-example,
+.RM-customer{
+    height: 600px;
+    background-color: #f1f1f1;
+}
+.RM-example p,
+.RM-location p,
+.RM-customer p,
+.RM-learn p{
+    padding-top: 15px;
+}
+
+.RM-example .col-md-4 a{
+  
+    display: block;
+    width: 262px;
+    height: 150px;
+    margin:0 auto;
+    border:1px solid red;
+}
+/* 应用场景 */
+.RM-location{
+    height: 600px;
+   
+    
+}
+.RM-location .col-md-4 a{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border:2px solid #11dab7;
+    display: inline-block;
+    margin:0 auto;
+}
+/* 客户案例 */
+.RM-customer{
+height: 660px;
+}
+
+.RM-customer .col-md-6 a{
+    display: inline-block;
+    width: 580px;
+    height: 280px;
+    border:1px solid gray;
+    margin: 0 auto;
+}
+.RM-customer h3{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #11dab7;
+    text-align: left;
+    text-indent: 30px;
+    
+}
+.RM-customer .RM-customer-wrap{
+    width: 580px;
+    height: 100px;
+    border: 1px solid red;
+    margin:0 auto;
+}
+.RM-customer h4{
+    height: 48px;
+    line-height: 24px;
+    padding-left: 30px;
+    text-align: left;
+}
+/* 快速入门 */
+.RM-learn{
+    height: 660px;
+    position: relative;
+}
+.RM-learn .RM-learn-steps{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top:250px;
+    left: 250px;
+    border:1px solid red;
+    
+}
+.RM-learn .RM-learn-details{
+    width: 640px;
+    height:388px ;
+    position: absolute;
+    top:200px;
+    left:500px;
+}
+.RM-learn .RM-learn-details .learn-top{
+    width: 640px;
+    height:338px ;
+}
+.RM-learn .RM-learn-details textarea{
+    width: 640px;
+    height:338px ;
+    background-color: #333;
+    color: #f1f1f1;
+
+}
+.RM-learn .RM-learn-details .learn-bottom {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+  
+}
+.RM-learn .RM-learn-details .learn-bottom button{
+  display: inline-block;
+  width:80px;
+  height: 28px;
+  border:1px solid #11dab7;
+  color: #11dab7;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-left: -50px;
+  margin-top: 9px;
+  
+
+}
+.RM-learn .RM-learn-details .learn-bottom span{
+    padding-left: 20px;
+    color: #f1f1f1;
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height:450px;
+    background-color: #333;
+}
+footer ul{
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+  
+}
+footer ul:last-child{
+    float: right;
+}
+footer ul li{
+   margin:15px auto;
+}
+footer ul li a {
+    color: #f1f1f1;
+    font-size: 14px;
+   
+}
+footer ul li span{
+    color: #f1f1f1;
+}
+footer ul li .email{
+color: #11dab7;
+}
+footer ul li .number{
+color: skyblue;
+}
+footer ul li:first-child a{
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #999;
+  
+}
+footer .footer-top{
+    width: 100%;
+    height: 300px;
+}
+footer .footer-bottom{
+    width: 1200px;
+    height: 150px;
+    margin:0 auto;
+    border-top: 1px solid #f1f1f1;
+}
+footer .footer-bottom .col-md-6{
+    margin-top: 25px;
+    color: #999;
+    height: 50px;
+    line-height: 25px;
+}
+footer .footer-bottom .col-md-6 a{
+    color: #f1f1f1;
+}
+footer .footer-bottom .col-md-6 p span
+
+{
+
+    color: #11dab7;
+}
+footer .footer-bottom .col-md-6:last-child{
+    text-align: right;
+}
+/* 旁边固定栏 */
+.RM-aside-fix{
+    width: 60px;
+    height: 244px;
+    position: fixed;
+    top:30%;
+    right: 0;
+    border:1px solid #11dab7;
+   
+}
+.RM-aside-fix a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+   
+    background-image: url();
+}
+.RM-aside-fix a+a{
+    border-top:1px solid #11dab7;
+}
